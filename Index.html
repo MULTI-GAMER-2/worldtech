@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us" onload="ONRELOAD();">
+<html lang="en-us">
 <head>
     
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -74,13 +74,12 @@ What we want with our website is not only to benefit from us but also to help ou
 
         }
 
-        function ONRELOAD(){
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 
-            window.location.href = '/mobile-version.html';
+            window.replace('https://www.worldtech.tk/mobile-version.html');
 
 }
-        }
+
     </script>
    </script>
 </body>
